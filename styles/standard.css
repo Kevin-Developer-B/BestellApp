@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.padding{
+    padding: 10px
+}
+
+.color-orange{
+    color: rgb(243, 123, 6);
+}

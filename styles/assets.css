@@ -1,0 +1,74 @@
+.logo{
+    width: 130px;
+}
+.cover{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+
+.button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.burger-menu{
+    color: white;
+    font-size: 40px;
+}
+
+.basket-button{
+    display: none;
+}
+
+.add-button{
+    border: 0.5px solid rgba(128, 128, 128, 0.342);
+    font-size: 30px;
+}
+
+.add-button:hover{
+    background-color: rgba(243, 125, 6, 0.685);
+    transition: 125ms ease-in-out;
+    color: white;
+}
+
+.btn{
+    font-size: 18px;
+}
+
+.reponsiv-button{
+    display: none;
+}
+
+.responsive-button {
+    display: none;
+    position: fixed;
+
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 100%;
+
+    background-color: #bd661e;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.responsive-button.move-up {
+    transform: translate(-50%, -94vh);
+}
+
+@media(max-width: 700px){
+    .burger-menu{
+        display: none;
+    }
+}

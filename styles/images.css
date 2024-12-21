@@ -1,0 +1,37 @@
+.first-image{
+    background-image: url(../assets/Images/dinner-table.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+}
+
+.company-logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 145px;
+    border: 1px solid rgb(87, 86, 86);
+}
+
+.pizza-image{
+    width: 100%;
+    height: 70px;
+    object-fit: cover;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icon{
+    width: 40px;
+}
+
+.footer-icon:hover{
+    background-color: #854d05;
+    transition: 125ms ease-in-out;
+    border-radius: 100%;
+}
